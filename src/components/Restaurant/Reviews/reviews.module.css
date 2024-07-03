@@ -1,0 +1,22 @@
+.reviews {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.title {
+  margin: 0 0 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0 0 0 20px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.item {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
