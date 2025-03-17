@@ -1,9 +1,10 @@
 import { Review } from "./Review";
 import styles from './reviews.module.css';
+import classnames from "classnames";
 
-export const Reviews = ({ reviews }) => {
+export const Reviews = ({ reviews, className }) => {
   return (
-    <div className={styles.reviews}>
+    <div className={classnames(styles.reviews, className)}>
       <h2 className={styles.title}>Отзывы</h2>
       {
         reviews.length === 0

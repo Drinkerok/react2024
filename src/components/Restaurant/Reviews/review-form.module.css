@@ -1,0 +1,33 @@
+.reviewForm {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.reviewFormHeader {
+  text-align: center;
+}
+
+.reviewFormItemWrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  &:not(:last-child) {
+    margin: 0 0 12px;
+  }
+}
+
+.reviewFormSubmit {
+  display: block;
+  margin: 20px auto 0;
+  padding: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+  background-color: #fff;
+  transition: 0.3s background-color;
+
+  &:hover {
+    background-color: #e1e1e1;
+  }
+}

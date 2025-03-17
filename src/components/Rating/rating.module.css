@@ -1,0 +1,14 @@
+.ratingList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 3px;
+}
+
+.ratingButton {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

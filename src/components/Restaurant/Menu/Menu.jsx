@@ -1,9 +1,10 @@
 import { Counter } from '../../Counter/Counter';
 import styles from './styles.module.scss';
+import classnames from "classnames";
 
-export const Menu = ({ items }) => {
+export const Menu = ({ items, className }) => {
   return (
-    <div className={styles.menu}>
+    <div className={classnames(styles.menu, className)}>
       <h2 className={styles.title}>Меню ресторана</h2>
 
       {
